@@ -1,11 +1,6 @@
 <template>
   <div class="card shadow-sm mb-3">
-    <img
-      v-if="tweets[show].featured_image"
-      :src="tweets[show].featured_image"
-      class="card-img-top"
-      :alt="tweets[show].featured_image_caption"
-    />
+    
     <div class="card-body">
       <h5 class="card-title mt-0">{{ tweets[show].text }}</h5>
     

@@ -2142,11 +2142,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "tweet",
   props: {
@@ -70897,16 +70892,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "card shadow-sm mb-3" }, [
-    _vm.tweets[_vm.show].featured_image
-      ? _c("img", {
-          staticClass: "card-img-top",
-          attrs: {
-            src: _vm.tweets[_vm.show].featured_image,
-            alt: _vm.tweets[_vm.show].featured_image_caption
-          }
-        })
-      : _vm._e(),
-    _vm._v(" "),
     _c("div", { staticClass: "card-body" }, [
       _c("h5", { staticClass: "card-title mt-0" }, [
         _vm._v(_vm._s(_vm.tweets[_vm.show].text))
