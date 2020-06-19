@@ -25,6 +25,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::namespace('Studio')->prefix(config('studio.path'))->group(function () {
     Route::prefix('api')->group(function () {
+
+
+        Route::prefix('social')->group(function(){
+            Route::get('/', 'SocialController@index');
+            Route::get('{channel}', 'SocialController@show');
+        });
+
+
+
+
         Route::prefix('posts')->group(function () {
             Route::get('/', 'PostController@index');
             Route::get('{identifier}/{slug}', 'PostController@show')->middleware('Canvas\Http\Middleware\Session');
@@ -43,7 +53,14 @@ Route::namespace('Studio')->prefix(config('studio.path'))->group(function () {
         Route::prefix('users')->group(function () {
             Route::get('{identifier}', 'UserController@show');
         });
+
     });
 
     Route::get('/{view?}', 'ViewController')->where('view', '(.*)')->name('studio');
+    
+
+  
+
+
 });
+

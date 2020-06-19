@@ -1,7 +1,7 @@
 <template>
     <div>
         <vue-headful
-            title="Studio — Tags"
+            title="Snowmeister's Blog — Tags"
             description="Tags are great for describing the details of your posts"
         />
 

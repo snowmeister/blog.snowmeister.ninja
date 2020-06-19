@@ -1,7 +1,7 @@
 <template>
     <div>
         <vue-headful
-            title="Studio — Topics"
+            title="Snowmeister's Blog — Topics"
             description="Topics are great for broadly grouping your posts."
         />
 
