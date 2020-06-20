@@ -53,9 +53,10 @@
 </template>
 
 <script>
-    import NProgress from 'nprogress'
+    import NProgress from 'nprogress';
+    
     import vueHeadful from 'vue-headful';
-    import PostList from '../components/PostList'
+    import PostList from '../components/PostList';
     import Navbar from "../components/Navbar";
     import FeaturedPostList from "../components/FeaturedPostList";
 

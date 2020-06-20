@@ -143,7 +143,7 @@
 
             // Render any Tweets inside the editor
             let tweets = document.querySelectorAll('div.ql-tweet')
-            console.log(tweets);
+           
             for (let i = 0; i <tweets.length; i++) {
                 while (tweets[i].firstChild) {
                     tweets[i].removeChild(tweets[i].firstChild)

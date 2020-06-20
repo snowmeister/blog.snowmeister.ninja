@@ -8,8 +8,7 @@ class SocialController extends BaseController
 {
     //
     public function index(){
-        //https://twauth.snowmeister.co.uk/get_tweets.php?callback=angular.callbacks._0
-        return 'hello';
+        return '{}';
     }
 
     /**
@@ -17,7 +16,7 @@ class SocialController extends BaseController
      */
     function jsonp_decode($jsonp, $assoc = false) { // PHP 5.3 adds depth as third parameter to json_decode
         if($jsonp[0] !== '[' && $jsonp[0] !== '{') { // we have JSONP
-           $jsonp = substr($jsonp, strpos($jsonp, '('));
+        $jsonp = substr($jsonp, strpos($jsonp, '('));
         }
         return json_decode(trim($jsonp,'();'), $assoc);
     }
