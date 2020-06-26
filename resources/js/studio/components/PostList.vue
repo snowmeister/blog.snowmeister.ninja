@@ -2,7 +2,7 @@
     <div v-if="availablePosts.length > 0">
         <div v-for="post in availablePosts">
             <router-link :to="{ name: 'post', params: { identifier: publicIdentifier(post), slug: post.slug } }" class="text-decoration-none">
-                <div class="card mb-4 shadow-sm">
+                <div class="card mb-4">
                     <div class="row no-gutters">
                         <div :class="post.featured_image ? 'col-9' : ''">
                             <div class="card-body">

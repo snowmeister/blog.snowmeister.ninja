@@ -3,7 +3,7 @@
         <div v-for="post in availablePosts">
             <router-link :to="{ name: 'post', params: { identifier: publicIdentifier(post), slug: post.slug } }" class="text-decoration-none">
                 <div class="col mb-4">
-                    <div class="card shadow-sm">
+                    <div class="card">
                         <img v-if="post.featured_image" :src="post.featured_image" class="card-img-top" :alt="post.featured_image_caption">
                         <div class="card-body">
                             <h5 class="card-title mt-0">{{ post.title }}</h5>

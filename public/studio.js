@@ -78928,7 +78928,7 @@ var render = function() {
             },
             [
               _c("div", { staticClass: "col mb-4" }, [
-                _c("div", { staticClass: "card shadow-sm" }, [
+                _c("div", { staticClass: "card" }, [
                   post.featured_image
                     ? _c("img", {
                         staticClass: "card-img-top",
@@ -79217,7 +79217,7 @@ var render = function() {
                   }
                 },
                 [
-                  _c("div", { staticClass: "card mb-4 shadow-sm" }, [
+                  _c("div", { staticClass: "card mb-4" }, [
                     _c("div", { staticClass: "row no-gutters" }, [
                       _c("div", { class: post.featured_image ? "col-9" : "" }, [
                         _c("div", { staticClass: "card-body" }, [
@@ -79310,7 +79310,7 @@ var render = function() {
                   },
                   [
                     _c("div", { staticClass: "col mb-4" }, [
-                      _c("div", { staticClass: "card mb-4 shadow-sm" }, [
+                      _c("div", { staticClass: "card mb-4" }, [
                         _c("div", { staticClass: "card-body" }, [
                           _c("p", { staticClass: "card-text" }, [
                             _vm._v(_vm._s(item.name))
@@ -79351,7 +79351,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "card shadow-sm mb-3" }, [
+  return _c("div", { staticClass: "card mb-3" }, [
     _c("div", { staticClass: "card-body tweet" }, [
       _c("h5", {
         staticClass: "card-title mt-0",
@@ -79560,7 +79560,7 @@ var render = function() {
                                 {
                                   staticClass: "border-bottom border-dark pb-2"
                                 },
-                                [_vm._v("All Posts")]
+                                [_vm._v("Previous Posts")]
                               )
                             ]
                           )

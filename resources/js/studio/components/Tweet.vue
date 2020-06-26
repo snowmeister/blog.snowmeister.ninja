@@ -1,5 +1,5 @@
 <template>
-  <div class="card shadow-sm mb-3">
+  <div class="card mb-3">
     <div class="card-body tweet">
       <h5 class="card-title mt-0" v-html=tweet></h5>
     </div>

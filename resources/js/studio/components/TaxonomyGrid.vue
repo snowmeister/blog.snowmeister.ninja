@@ -4,7 +4,7 @@
             <div v-for="item in availableItems">
                 <router-link :to="{ name: type+'-posts', params: { slug: item.slug } }" class="text-decoration-none">
                     <div class="col mb-4">
-                        <div class="card mb-4 shadow-sm">
+                        <div class="card mb-4">
                             <div class="card-body">
                                 <p class="card-text">{{ item.name }}</p>
                             </div>
