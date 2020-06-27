@@ -79769,7 +79769,7 @@ var render = function() {
                   "col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12"
               },
               [
-                _c("h1", { staticClass: "text-dark font-serif pt-5 mb-4" }, [
+                _c("h1", { staticClass: "post-title pt-5 mb-4" }, [
                   _vm._v(_vm._s(_vm.post.title))
                 ]),
                 _vm._v(" "),

@@ -33,7 +33,7 @@
 
         <div v-if="isReady" class="mt-5">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                <h1 class="text-dark font-serif pt-5 mb-4">{{ post.title }}</h1>
+                <h1 class="post-title pt-5 mb-4">{{ post.title }}</h1>
 
                 <div class="media py-1">
                     <router-link :to="{name: 'user', params: { identifier: publicIdentifier(post) }}">

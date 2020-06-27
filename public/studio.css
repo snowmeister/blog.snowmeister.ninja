@@ -11056,3 +11056,7 @@ h5.card-title {
   font-family: "Seaweed Script", cursive;
 }
 
+h1.post-title {
+  font-size: 4rem !important;
+}
+
