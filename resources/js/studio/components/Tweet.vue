@@ -44,7 +44,6 @@ export default {
   methods : {
      prepareTweet(tweet) {
         const formattedTweet =  twitter.autoLink(twitter.htmlEscape(tweet));
-        console.log(formattedTweet)
         return formattedTweet;
     }
   }

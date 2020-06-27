@@ -2192,7 +2192,6 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     prepareTweet: function prepareTweet(tweet) {
       var formattedTweet = twitter_text__WEBPACK_IMPORTED_MODULE_0__["default"].autoLink(twitter_text__WEBPACK_IMPORTED_MODULE_0__["default"].htmlEscape(tweet));
-      console.log(formattedTweet);
       return formattedTweet;
     }
   }
@@ -10628,7 +10627,8 @@ for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap|Merriweather&display=swap);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Passion+One&family=Seaweed+Script&display=swap&family=Roboto&display=swap|Merriweather&display=swap);", ""]);
+exports.push([module.i, "@import url(https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css);", ""]);
 
 // module
 exports.push([module.i, ".post-content::first-letter {\n  font-size: 52px;\n  line-height: 0;\n}\n.featured-image-caption {\n  text-align: center;\n  color: #a0aec0;\n  margin-top: 0.5em;\n  font-size: 0.9rem;\n  font-family: \"Roboto\", sans-serif, sans-serif;\n}\n.featured-image-caption a {\n  text-decoration: underline;\n}\n.post-content {\n  font-size: 1.1rem;\n  line-height: 2;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n}\n.post-content p {\n  margin: 2em 0 0 0;\n}\n.post-content a {\n  text-decoration: underline;\n}\n.post-content h1,\n.post-content h2,\n.post-content h3 {\n  margin: 1.5em 0 0 0;\n}\n.post-content blockquote {\n  margin-top: 2em;\n  font-style: italic;\n  font-size: 28px;\n  color: #a0aec0;\n  padding-left: 1.5em;\n  line-height: 1.5;\n}\ndiv.embedded_image {\n  margin-top: 2em;\n}\ndiv.embedded_image > img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\ndiv.embedded_image > p {\n  text-align: center;\n  color: #a0aec0;\n  margin-top: 0.5em;\n  font-size: 0.9rem;\n  font-family: \"Roboto\", sans-serif, sans-serif;\n}\ndiv.embedded_image[data-layout=wide] img {\n  max-width: 1024px;\n  margin: 0 auto 30px;\n}\ndiv.embedded_image[data-layout=wide] {\n  width: 100vw;\n  position: relative;\n  left: 50%;\n  margin-left: -50vw;\n}\ndiv.post-content hr {\n  border: none;\n  margin: 3em 0 4em 0;\n  color: #1a202c;\n  letter-spacing: 1em;\n  text-align: center;\n}\ndiv.post-content hr:before {\n  content: \"...\";\n}\n.post-content > p > code {\n  background-color: #a0aec0;\n}\npre.ql-syntax {\n  margin-top: 2em;\n  padding: 1em;\n  border-radius: 0.5rem;\n}\n@media screen and (max-width: 1024px) {\n.post-content > .embedded_image[data-layout=wide] > > > img {\n    max-width: 100%;\n}\n}\ndiv.ql-tweet {\n  display: flex;\n  justify-content: center;\n}", ""]);

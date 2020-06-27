@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap|Merriweather&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css2?family=Passion+One&family=Seaweed+Script&display=swap&family=Roboto&display=swap|Merriweather&display=swap);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -10929,6 +10929,13 @@ a.text-dark:focus {
 }
 
 h1 {
-  color: #54497a;
+  color: #ad7fc2;
+  font-family: "Seaweed Script", cursive;
+}
+
+h4 {
+  color: #ad7fc2;
+  font-size: 2rem !important;
+  font-family: "Seaweed Script", cursive;
 }
 

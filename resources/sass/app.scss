@@ -1,7 +1,7 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Seaweed+Script&display=swap&family=Roboto&display=swap|Merriweather&display=swap');
 
-// Variables
 @import 'studio/variables';
 
 // Bootstrap
@@ -10,4 +10,11 @@
 
 h1{
     color: $brand-main;
+    font-family: 'Seaweed Script', cursive;
+}
+
+h4{
+    color: $brand-main;
+    font-size: 2rem!important;
+   font-family: 'Seaweed Script', cursive;
 }

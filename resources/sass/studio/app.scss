@@ -44,9 +44,25 @@
 }
 
 @import 'nprogress';
+
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 
 @import '~bootstrap';
+@import 'tweet';
+
+
+
+
+h1{
+    color: $brand-main;
+    font-family: 'Seaweed Script', cursive;
+}
+
+h4, h5.card-title{
+    color: $brand-main;
+    font-size: 2rem!important;
+   font-family: 'Seaweed Script', cursive;
+}
 
