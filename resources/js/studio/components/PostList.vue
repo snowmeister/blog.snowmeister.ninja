@@ -8,7 +8,7 @@
                             <div class="card-body">
                                 <h4 class="card-title mt-0">{{ post.title }}</h4>
                                 <p class="card-text text-secondary">{{ post.summary }}</p>
-                                <p class="card-text"><small class="text-muted">{{ moment(post.published_at).format('MMM D') }} — {{ post.read_time }}</small></p>
+                                <p class="card-text"><small class="text-muted">{{ moment(post.published_at).format('dddd, MMMM Do YYYY, h:mm:ss a') }} — {{ post.read_time }}</small></p>
                             </div>
                         </div>
                         <div v-if="post.featured_image" class="col-3">

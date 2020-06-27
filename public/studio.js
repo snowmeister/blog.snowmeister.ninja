@@ -78958,11 +78958,17 @@ var render = function() {
                     [
                       _c("span", [
                         _vm._v(
-                          _vm._s(_vm.moment(post.published_at).format("MMM D"))
+                          _vm._s(
+                            _vm
+                              .moment(post.published_at)
+                              .format("dddd, MMMM Do YYYY, h:mm:ss a")
+                          )
                         )
                       ]),
                       _vm._v(" "),
-                      _c("span", [_vm._v(_vm._s(post.read_time))])
+                      _c("span", { staticClass: "float-right" }, [
+                        _vm._v(_vm._s(post.read_time))
+                      ])
                     ]
                   )
                 ])
@@ -79233,7 +79239,9 @@ var render = function() {
                             _c("small", { staticClass: "text-muted" }, [
                               _vm._v(
                                 _vm._s(
-                                  _vm.moment(post.published_at).format("MMM D")
+                                  _vm
+                                    .moment(post.published_at)
+                                    .format("dddd, MMMM Do YYYY, h:mm:ss a")
                                 ) +
                                   " — " +
                                   _vm._s(post.read_time)

@@ -10,8 +10,8 @@
                             <p class="card-text text-secondary">{{ post.summary }}</p>
                         </div>
                         <div class="card-footer text-muted bg-transparent border-0 small d-flex justify-content-between">
-                            <span>{{ moment(post.published_at).format('MMM D') }}</span>
-                            <span>{{ post.read_time }}</span>
+                            <span>{{ moment(post.published_at).format('dddd, MMMM Do YYYY, h:mm:ss a') }}</span>
+                            <span class="float-right">{{ post.read_time }}</span>
                         </div>
                     </div>
                 </div>
