@@ -53,7 +53,7 @@
 
                 <img v-if="post.featured_image"
                      :src="post.featured_image"
-                     class="pt-4 img-fluid w-100"
+                     class="pt-4 img-fluid w-100 bordered-image"
                      :alt="post.featured_image_caption"
                      :title="post.featured_image_caption">
 

@@ -38,11 +38,11 @@
     <div class="mt-5 pt-5">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3">
         <h1 class="font-serif">Snowmeister</h1>
-        <p class="lead text-secondary">Coder, Cook, Keeper of a Conure</p>
+        <p class="lead text-secondary">Coder, Cook, Geek &amp; Keeper of Conures...</p>
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 mt-3"></div>
 
         <main role="main" class="mt-4">
-       
+
           <div v-if="posts.length > 0">
             <h4 class="mb-4 border-bottom pb-2">
               <span class="border-bottom border-dark pb-2">Featured</span>
@@ -55,7 +55,7 @@
             <span class="border-bottom border-dark pb-2">Latest Tweet</span>
           </h4>
           <div v-if="tweets.length > 0 && tweets !== undefined">
-            <tweet :tweets="tweets" :show="7"></tweet>
+            <tweet :tweets="tweets" :show="1"></tweet>
           </div>
             <h4
               v-if="posts.slice(featuredPostCount).length > 0"

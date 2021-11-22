@@ -19,3 +19,17 @@ h4{
    font-family: 'Seaweed Script', cursive;
 }
 
+a img{
+    transition: all 0.25s linear;
+    filter: grayscale(1);
+}
+
+
+a:hover img{
+    filter: grayscale(0);
+}
+
+
+.bordered-image, .card img{
+    border-radius: 1rem;
+}

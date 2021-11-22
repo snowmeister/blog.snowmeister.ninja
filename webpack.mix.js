@@ -11,8 +11,27 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+// mix.js('./resources/js/app.js', 'public/js').vue()
+//     .sass('./resources/sass/app.scss', 'public/css');
 
-mix.js('resources/js/studio/app.js', 'public/studio.js')
-    .sass('resources/sass/studio/app.scss', 'public/studio.css');
+// mix.js('./resources/js/studio/app.js', 'public/studio.js')
+//     .sass('./resources/sass/studio/app.scss', 'public/studio.css');
+
+mix.js('./resources/js/app.js', 'public/js')
+.vue({
+    extractStyles: true,
+    globalStyles: false
+})
+.sass('./resources/sass/app.scss', 'public/css', [
+        //
+]);
+
+
+mix.js('./resources/js/studio/app.js', 'public/studio.js')
+.vue({
+    extractStyles: true,
+    globalStyles: false
+})
+.sass('./resources/sass/studio/app.scss', 'public/studio.css', [
+        //
+]);
